@@ -39,3 +39,36 @@ window.addEventListener("load", () => {
   }, 2200);
 });
 
+function scrollToCategory(id) {
+  const target = document.getElementById(id);
+  if (!target) return;
+
+  const headerOffset = 120; 
+  const elementPosition = target.getBoundingClientRect().top;
+  const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: "smooth"
+  });
+
+  filterMenu(id);
+}
+
+function goToCategory(category) {
+  filterMenu(category);
+
+  const anchor = document.getElementById(category + "-anchor");
+  if (!anchor) return;
+
+  const offset = 130; 
+  const top =
+    anchor.getBoundingClientRect().top + window.scrollY - offset;
+
+  window.scrollTo({
+    top,
+    behavior: "smooth",
+  });
+}
+
+

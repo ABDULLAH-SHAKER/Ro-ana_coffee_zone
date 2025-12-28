@@ -54,12 +54,18 @@ Be part of our journey! Follow our new café page and discover your new favorite
 <!-- CATEGORIES -->
 <section class="categories">
   <button class="active" onclick="filterMenu('all')" data-i18n="all"></button>
-  <button onclick="filterMenu('hot')" data-i18n="hot"></button>
-  <button onclick="filterMenu('cold')" data-i18n="cold"></button>
-  <button onclick="filterMenu('matcha')" data-i18n="matcha"></button>
-  <button onclick="filterMenu('dessert')" data-i18n="dessert"></button>
-  <button onclick="filterMenu('breakfast')" data-i18n="breakfast"></button>
-  <button onclick="filterMenu('appetizers')" data-i18n="appetizers"></button>
+  <div id="hot-anchor"></div>
+  <button onclick="goToCategory('hot')" data-i18n="hot"></button>
+     <div id="cold-anchor"></div>
+  <button onclick="goToCategory('cold')" data-i18n="cold"></button>
+  <div id="matcha-anchor"></div>
+  <button onclick="goToCategory('matcha')" data-i18n="matcha"></button>
+  <div id="dessert-anchor"></div>
+  <button onclick="goToCategory('dessert')" data-i18n="dessert"></button>
+  <div id="breakfast-anchor"></div>
+  <button onclick="goToCategory('breakfast')" data-i18n="breakfast"></button>
+  <div id="appetizers-anchor"></div>
+  <button onclick="goToCategory('appetizers')" data-i18n="appetizers"></button>
 </section>
 
 
