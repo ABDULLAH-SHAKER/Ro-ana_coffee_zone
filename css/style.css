@@ -158,9 +158,9 @@ body {
 
 /* ================= MENU ================= */
 .menu {
-  padding: 16px;
+  padding: 24px 16px; 
   display: grid;
-  gap: 16px;
+  gap: 22px;         
 }
 
 .card {
@@ -169,6 +169,22 @@ body {
   overflow: hidden;
   box-shadow: 0 6px 20px rgba(0,0,0,0.4);
 }
+.card {
+  background: #111;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+
+  transition: 
+    opacity 0.35s ease,
+    transform 0.35s ease;
+}
+.card.hidden {
+  opacity: 0;
+  transform: translateY(12px);
+  pointer-events: none;
+}
+
 
 .card img {
   width: 100%;
@@ -177,7 +193,7 @@ body {
 }
 
 .card-content {
-  padding: 12px;
+  padding: 16px;
 }
 
 .card-content h3 {
@@ -192,9 +208,14 @@ body {
 
 .card-content span {
   display: block;
-  margin-top: 8px;
+  margin-top: 14px;     
+  padding-top: 8px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+
   color: orange;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.5px;
 }
 
 /* ================= TABLET ================= */
