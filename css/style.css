@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 12px 16px;
-  background: #111;            /* حل مشكلة الخلفية */
+  background: #111;          
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -57,14 +57,12 @@ body {
   overflow: hidden;
 }
 
-/* صورة البانر */
 .hero-img {
   width: 100%;
-  height: auto;          /* هذا السر */
+  height: auto;         
   display: block;
 }
 
-/* الطبقة فوق الصورة */
 .overlay {
   position: absolute;
   inset: 0;
@@ -231,4 +229,50 @@ body {
       rgba(0, 0, 0, 0.15)
     );
   }
+}
+
+/* ================= INTRO SPLASH ================= */
+.intro {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 0.8s ease, visibility 0.8s ease;
+}
+
+.intro img {
+  width: 140px;
+  animation: scaleFade 1.5s ease forwards;
+}
+
+@keyframes scaleFade {
+  0% {
+    transform: translateY(20px) scale(0.85);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+.intro.hide img {
+  transform: translateY(-40px);
+  opacity: 0;
+  transition: transform 0.8s ease, opacity 0.8s ease;
+}
+
+/* hide intro */
+.intro.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* blur whole site at start */
+body.loading > *:not(.intro) {
+  filter: blur(8px);
+  transition: filter 1s ease;
 }

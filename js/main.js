@@ -28,3 +28,14 @@ function filterMenu(category) {
     }
   });
 }
+
+// INTRO SPLASH CONTROL
+window.addEventListener("load", () => {
+  document.body.classList.add("loading");
+
+  setTimeout(() => {
+    document.getElementById("intro").classList.add("hide");
+    document.body.classList.remove("loading");
+  }, 2200);
+});
+
