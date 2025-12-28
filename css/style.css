@@ -54,7 +54,7 @@ body {
 .hero {
   position: relative;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .hero-img {
@@ -169,13 +169,13 @@ body {
 .card {
   background: #111;
   border-radius: 16px;
-  overflow: hidden;
+  overflow-x: hidden;
   box-shadow: 0 6px 20px rgba(0,0,0,0.4);
 }
 .card {
   background: #111;
   border-radius: 16px;
-  overflow: hidden;
+  overflow-x: hidden;
   box-shadow: 0 6px 20px rgba(0,0,0,0.4);
 
   transition: 
@@ -267,6 +267,18 @@ body {
   z-index: 9999;
   transition: opacity 0.8s ease, visibility 0.8s ease;
 }
+@media (min-width: 769px) {
+  .intro {
+    backdrop-filter: blur(8px);
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    backdrop-filter: none;
+  }
+}
+
 
 .intro img {
   width: 140px;
@@ -295,8 +307,22 @@ body {
   visibility: hidden;
 }
 
-/* blur whole site at start */
-body.loading > *:not(.intro) {
-  filter: blur(8px);
-  transition: filter 1s ease;
+/* ================= MAP FLOAT BUTTON ================= */
+.map-float {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px;
+  background: orange;
+  color: #000;
+  padding: 12px 16px;
+  border-radius: 50%;
+  font-size: 24px;
+
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0
+,0.3);
+  transition: background 0.3s ease;
 }
