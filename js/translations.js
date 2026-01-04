@@ -91,6 +91,98 @@ hot16_desc: "قهوة مقطرة بنكهة متوازنة",
 hot17: "موكا",
 hot17_desc: "قهوة مع شوكولاتة وحليب",
 
+//////
+
+cold: "قهوة باردة",
+
+cold1: "آيس أمريكانو",
+cold1_desc: "قهوة إسبريسو مع ماء بارد ومنعشة",
+
+cold2: "آيس لاتيه",
+cold2_desc: "إسبريسو مع حليب بارد وثلج",
+
+cold3: "آيس سبانيش لاتيه",
+cold3_desc: "لاتيه بارد مع حليب مكثف محلى",
+
+cold4: "آيس موكا",
+cold4_desc: "قهوة باردة مع شوكولاتة وحليب",
+
+cold5: "كولد برو",
+cold5_desc: "قهوة مخمرة على البارد بطعم ناعم",
+
+cold6: "آيس كراميل لاتيه",
+cold6_desc: "لاتيه بارد مع صوص الكراميل",
+
+cold7: "آيس فانيلا لاتيه",
+cold7_desc: "قهوة باردة مع نكهة الفانيلا",
+
+
+/////
+dessert: "حلويات",
+
+dessert1: "تشيزكيك سان سباستيان",
+dessert1_desc: "تشيزكيك كريمي بقشرة محمصة",
+
+dessert2: "تشيزكيك لوتس",
+dessert2_desc: "تشيزكيك غني مع صوص بسكويت لوتس",
+
+dessert3: "براوني شوكولاتة",
+dessert3_desc: "براوني دافئة مع شوكولاتة غنية",
+
+dessert4: "تيراميسو",
+dessert4_desc: "حلى إيطالي بطبقات القهوة والكريمة",
+
+dessert5: "وافل",
+dessert5_desc: "وافل طازج مع صوصات متنوعة",
+
+dessert6: "كوكيز",
+dessert6_desc: "كوكيز طازجة بنكهات مختلفة",
+
+
+/////
+
+breakfast: "فطور",
+
+breakfast1: "فطور كلاسيك",
+breakfast1_desc: "بيض، جبن، زيتون، خبز طازج",
+
+breakfast2: "كرواسون بالجبن",
+breakfast2_desc: "كرواسون طازج محشو بالجبن",
+
+breakfast3: "كرواسون بالشوكولاتة",
+breakfast3_desc: "كرواسون محشو بشوكولاتة ذائبة",
+
+breakfast4: "توست أفوكادو",
+breakfast4_desc: "خبز محمص مع أفوكادو طازج",
+
+breakfast5: "توست بالبيض",
+breakfast5_desc: "توست محمص مع بيض طازج",
+
+breakfast6: "أومليت",
+breakfast6_desc: "بيض مخفوق مع إضافات حسب الاختيار",
+
+
+////
+
+
+appetizers: "مقبلات",
+
+app1: "بطاطس مقلية",
+app1_desc: "بطاطس مقرمشة مقدمة ساخنة",
+
+app2: "بطاطس بالجبن",
+app2_desc: "بطاطس مغطاة بجبن ذائب",
+
+app3: "ناجتس دجاج",
+app3_desc: "قطع دجاج مقرمشة",
+
+app4: "أصابع موزاريلا",
+app4_desc: "أصابع جبن موزاريلا مقلية",
+
+app5: "حلقات بصل",
+app5_desc: "حلقات بصل ذهبية مقرمشة",
+
+
   },
 
   en: {
@@ -182,6 +274,99 @@ hot16_desc: "Balanced drip coffee",
 hot17: "Mocha",
 hot17_desc: "Coffee with chocolate and milk",
 
+
+////
+
+cold: "Cold Coffee",
+
+cold1: "Iced Americano",
+cold1_desc: "Espresso with cold water and ice",
+
+cold2: "Iced Latte",
+cold2_desc: "Espresso with cold milk and ice",
+
+cold3: "Iced Spanish Latte",
+cold3_desc: "Cold latte with sweet condensed milk",
+
+cold4: "Iced Mocha",
+cold4_desc: "Cold coffee with chocolate and milk",
+
+cold5: "Cold Brew",
+cold5_desc: "Slow brewed cold coffee with smooth taste",
+
+cold6: "Iced Caramel Latte",
+cold6_desc: "Cold latte with caramel sauce",
+
+cold7: "Iced Vanilla Latte",
+cold7_desc: "Cold coffee with vanilla flavor",
+
+
+/////
+
+
+dessert: "Desserts",
+
+dessert1: "San Sebastian Cheesecake",
+dessert1_desc: "Creamy cheesecake with toasted crust",
+
+dessert2: "Lotus Cheesecake",
+dessert2_desc: "Rich cheesecake with lotus biscuit sauce",
+
+dessert3: "Chocolate Brownie",
+dessert3_desc: "Warm brownie with rich chocolate",
+
+dessert4: "Tiramisu",
+dessert4_desc: "Italian dessert with coffee layers",
+
+dessert5: "Waffle",
+dessert5_desc: "Fresh waffle with assorted sauces",
+
+dessert6: "Cookies",
+dessert6_desc: "Fresh baked cookies with different flavors",
+
+
+////
+
+breakfast: "Breakfast",
+
+breakfast1: "Classic Breakfast",
+breakfast1_desc: "Eggs, cheese, olives, fresh bread",
+
+breakfast2: "Cheese Croissant",
+breakfast2_desc: "Fresh croissant filled with cheese",
+
+breakfast3: "Chocolate Croissant",
+breakfast3_desc: "Croissant filled with melted chocolate",
+
+breakfast4: "Avocado Toast",
+breakfast4_desc: "Toasted bread with fresh avocado",
+
+breakfast5: "Egg Toast",
+breakfast5_desc: "Toasted bread with fresh eggs",
+
+breakfast6: "Omelette",
+breakfast6_desc: "Egg omelette with optional fillings",
+
+
+///
+
+appetizers: "Snacks",
+
+app1: "French Fries",
+app1_desc: "Crispy golden french fries",
+
+app2: "Cheese Fries",
+app2_desc: "Fries topped with melted cheese",
+
+app3: "Chicken Nuggets",
+app3_desc: "Crispy chicken nuggets",
+
+app4: "Mozzarella Sticks",
+app4_desc: "Fried mozzarella cheese sticks",
+
+app5: "Onion Rings",
+app5_desc: "Golden crispy onion rings",
+
   },
 
   tr: {
@@ -272,6 +457,98 @@ hot16_desc: "Dengeli filtre kahve",
 
 hot17: "Mocha",
 hot17_desc: "Çikolatalı sütlü kahve",
+
+
+////
+
+cold: "Soğuk Kahve",
+
+cold1: "Buzlu Americano",
+cold1_desc: "Soğuk su ve buz ile espresso",
+
+cold2: "Buzlu Latte",
+cold2_desc: "Soğuk süt ve buzlu espresso",
+
+cold3: "Buzlu Spanish Latte",
+cold3_desc: "Tatlandırılmış sütlü soğuk latte",
+
+cold4: "Buzlu Mocha",
+cold4_desc: "Çikolatalı ve sütlü soğuk kahve",
+
+cold5: "Cold Brew",
+cold5_desc: "Yumuşak içimli soğuk demleme kahve",
+
+cold6: "Buzlu Karamel Latte",
+cold6_desc: "Karamel soslu soğuk latte",
+
+cold7: "Buzlu Vanilya Latte",
+cold7_desc: "Vanilya aromalı soğuk kahve",
+
+/////
+
+dessert: "Tatlılar",
+
+dessert1: "San Sebastian Cheesecake",
+dessert1_desc: "Karamelize kabuklu kremamsı cheesecake",
+
+dessert2: "Lotus Cheesecake",
+dessert2_desc: "Lotus bisküvili zengin cheesecake",
+
+dessert3: "Çikolatalı Brownie",
+dessert3_desc: "Yoğun çikolatalı sıcak brownie",
+
+dessert4: "Tiramisu",
+dessert4_desc: "Kahveli katmanlı İtalyan tatlısı",
+
+dessert5: "Waffle",
+dessert5_desc: "Çeşitli soslarla servis edilen waffle",
+
+dessert6: "Kurabiye",
+dessert6_desc: "Farklı aromalarda taze kurabiyeler",
+
+
+////
+
+breakfast: "Kahvaltı",
+
+breakfast1: "Klasik Kahvaltı",
+breakfast1_desc: "Yumurta, peynir, zeytin, taze ekmek",
+
+breakfast2: "Peynirli Kruvasan",
+breakfast2_desc: "Peynir dolgulu taze kruvasan",
+
+breakfast3: "Çikolatalı Kruvasan",
+breakfast3_desc: "Eriyen çikolatalı kruvasan",
+
+breakfast4: "Avokadolu Tost",
+breakfast4_desc: "Taze avokadolu kızarmış ekmek",
+
+breakfast5: "Yumurtalı Tost",
+breakfast5_desc: "Taze yumurtalı kızarmış tost",
+
+breakfast6: "Omlet",
+breakfast6_desc: "İsteğe bağlı malzemeli omlet",
+
+
+
+///
+
+appetizers: "Atıştırmalıklar",
+
+app1: "Patates Kızartması",
+app1_desc: "Çıtır sıcak patates kızartması",
+
+app2: "Peynirli Patates",
+app2_desc: "Eritilmiş peynirli patates",
+
+app3: "Tavuk Nugget",
+app3_desc: "Çıtır tavuk nugget",
+
+app4: "Mozzarella Çubukları",
+app4_desc: "Kızarmış mozzarella çubukları",
+
+app5: "Soğan Halkası",
+app5_desc: "Altın renkli çıtır soğan halkaları",
 
   },
 };
